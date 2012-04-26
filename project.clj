@@ -3,7 +3,7 @@
   :url "https://github.com/jeffdik/clojure-contrib-playground"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :dependencies [[org.clojure/clojure "1.4.0-beta5"]
+  :dependencies [[org.clojure/clojure "1.4.0"]
                  [org.clojure/algo.generic "0.1.0"]
                  [org.clojure/algo.monads "0.1.0"]
                  [org.clojure/core.cache "0.5.0"]
@@ -30,4 +30,8 @@
                  [org.clojure/tools.macro "0.1.1"]
                  [org.clojure/tools.namespace "0.1.2"]
                  [org.clojure/tools.nrepl "0.2.0-beta3"]
-                 [org.clojure/tools.trace "0.7.1"]])
+                 [org.clojure/tools.trace "0.7.1"]
+
+                 ;; for tools.logging
+                 [org.slf4j/slf4j-api "1.6.4"]
+                 [ch.qos.logback/logback-classic "1.0.1"]])
